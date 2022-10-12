@@ -17,3 +17,8 @@ body {
 #mainNavbar .nav-link:hover {
   color: white;
 }
+
+#headingGroup span {
+  color: black;
+  font-weight: ;
+}
