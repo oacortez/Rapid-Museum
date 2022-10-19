@@ -42,3 +42,20 @@ body {
     font-weight: 100;
   } 
 }
+
+.text h2 {
+  color: black;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
+
+.text p {
+  color: black;
+  /* font-weight: 100; */
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 10%;
+}
