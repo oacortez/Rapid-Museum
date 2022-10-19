@@ -1,21 +1,30 @@
 body {
-  background: #3C2317;
+  /* background: #3C2317; */
   /* font-family: 'Nunito', sans-serif; */
+  /* overflow-x: hidden; */
 }
 
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
+  color: black;
 }
 
 #mainNavbar .navbar-brand {
   font-size: 2rem;
   font-weight: 100;
   padding-top: 0;
+  color: black;
+
+}
+
+#mainNavbar .nav-link {
+  color: black
 }
 
 #mainNavbar .nav-link:hover {
-  color: white;
+  /* color: white; */
+  color: black;
 }
 
 #headingGroup span {
@@ -23,13 +32,30 @@ body {
 }
 
 #headingGroup h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 100;
 } 
 
 @media (max-width: 1200px) {
   #headingGroup h1 {
-    font-size: 2git rem;
+    font-size: 2rem;
     font-weight: 100;
   } 
+}
+
+.text h2 {
+  color: black;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
+
+.text p {
+  color: black;
+  /* font-weight: 100; */
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 10%;
 }
