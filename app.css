@@ -17,3 +17,19 @@ body {
 #mainNavbar .nav-link:hover {
   color: white;
 }
+
+#headingGroup span {
+  color: black;
+}
+
+#headingGroup h1 {
+  font-size: 3rem;
+  font-weight: 100;
+} 
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 2git rem;
+    font-weight: 100;
+  } 
+}
