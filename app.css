@@ -23,13 +23,13 @@ body {
 }
 
 #headingGroup h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 100;
 } 
 
 @media (max-width: 1200px) {
   #headingGroup h1 {
-    font-size: 2git rem;
+    font-size: 2rem;
     font-weight: 100;
   } 
 }
