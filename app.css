@@ -20,5 +20,9 @@ body {
 
 #headingGroup span {
   color: black;
-  font-weight: ;
 }
+
+#headingGroup h1 {
+  font-size: 3rem;
+  font-weight: 100;
+} 
