@@ -36,6 +36,7 @@ body {
   font-weight: 100;
 } 
 
+
 @media (max-width: 1200px) {
   #headingGroup h1 {
     font-size: 2rem;
@@ -57,9 +58,11 @@ body {
 }
 
 .content {
-  margin-top: 10%;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .navbar.scrolled {
-  background-color: red;
+  background: red;
+  transition: background 500ms;
 }
